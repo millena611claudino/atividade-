@@ -7,25 +7,34 @@ box-sizing: border-box;
 .game-board{
 width: 80%;
 height: 500px;
-border: 1px solid #3333;
+border-bottom: 15px solid green rgb(35,160,35);
 margin: 0 auto;
 position: relative;
 overflow: hidden;
+background: linear-gradient( #87CEEB, #E0F6FF);
 }
 
 .pipe {
     position: absolute;
     bottom: 0;
     width: 80px;
-    left: 120px;
-    /* animation: pipe-animation 2s  infinite linear;*/
-}
+    animation: pipe-animation 1.5s infinite Linear;
+    
 
 .mario{
     width: 150px;
     position: absolute;
-    bottom: 0px;
-    animation: jump 500ms ease-out;
+    bottom: 0x;
+}
+
+.jump{
+     animation: jump 500ms ease-out;
+}
+
+.clouds {
+    position: ;
+}
+    
 }
 @keyframes pipe-animation {
 from {
