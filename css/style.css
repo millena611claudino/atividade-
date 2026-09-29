@@ -19,7 +19,7 @@ background: linear-gradient( #87CEEB, #E0F6FF);
     bottom: 0;
     width: 80px;
     animation: pipe-animation 1.5s infinite Linear;
-    
+} 
 
 .mario{
     width: 150px;
@@ -32,10 +32,12 @@ background: linear-gradient( #87CEEB, #E0F6FF);
 }
 
 .clouds {
-    position: ;
+    position: absolute;
+    width: 550px;
+    animation: clouds-animation 20s infinite linear;
 }
     
-}
+
 @keyframes pipe-animation {
 from {
  right: -80px
@@ -46,12 +48,6 @@ right: 100%;
 }
 
 }
-
-inicio 0
-
-meio 180px
-
-fim 0
 
 @keyframes jump {
 0% {
@@ -73,4 +69,15 @@ fim 0
 100% {
     bottom: 0;
 }
+
+@keyframes cloudds-animation {
+    from {
+        right: 0,
+    }
+
+    to {
+        right: 100%;
+    }
+    
+
 }
